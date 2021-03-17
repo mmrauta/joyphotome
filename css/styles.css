@@ -10402,3 +10402,9 @@ body {
   visibility: visible;
   top: 0;
 }
+
+@media (max-width: 992px) {
+  #scroll-down {
+    visibility: hidden !important;
+  }
+}
