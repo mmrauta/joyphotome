@@ -42,10 +42,13 @@
     });
 
     // Collapse Navbar
+    // Toggle 'scroll-down' arrow
     var navbarCollapse = function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
+            $("#scroll-down").removeClass("open");
         } else {
+            $("#scroll-down").addClass("open");
             $("#mainNav").removeClass("navbar-shrink");
         }
     };
